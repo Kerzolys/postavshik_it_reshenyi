@@ -1,0 +1,29 @@
+{
+  "name": "postavshik_it_reshenyi",
+  "version": "1.0.0",
+  "description": "pet-project",
+  "main": "index.js",
+  "scripts": {
+    "test": "Hi Gleb",
+    "check": "prettier --check './**/*.{html,css,js}'",
+    "format": "prettier --write './**/*.{html,css,js}'",
+    "lint": "stylelint '**/*.css'",
+    "lintfix": "stylelint '**/*.css' --fix",
+    "checkAll": "npm run check && npm run lint",
+    "formatAll": "npm run format && npm run lintfix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kerzolys/postavshik_it_reshenyi.git"
+  },
+  "author": "Gleb Khokhlov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kerzolys/postavshik_it_reshenyi/issues"
+  },
+  "homepage": "https://github.com/Kerzolys/postavshik_it_reshenyi#readme",
+  "dependencies": {
+    "prettier": "^3.2.5",
+    "stylelint": "^16.2.1"
+  }
+}
