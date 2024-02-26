@@ -1,44 +1,44 @@
 @font-face {
   font-family: ProximaNova;
   src:
-    url(./ProximaNova/ProximaNova-Regular.ttf) format('ttf'),
-    url(./ProximaNova/ProximaNova-Regular.woff) format('woff'),
-    url(./ProximaNova/ProximaNova-Regular.eot) format('eot');
+    url(ProximaNova-Regular.ttf) format('ttf'),
+    url(ProximaNova-Regular.woff) format('woff'),
+    url(ProximaNova-Regular.eot) format('eot');
   font-weight: 400;
 }
 
 @font-face {
   font-family: ProximaNova;
   src:
-    url(./ProximaNova/ProximaNova-Semibold.eot) format('eot'),
-    url(./ProximaNova/ProximaNova-Semibold.woff) format('woff'),
-    url(./ProximaNova/ProximaNova-Semibold.ttf) format('ttf');
+    url(ProximaNova-Semibold.eot) format('eot'),
+    url(ProximaNova-Semibold.woff) format('woff'),
+    url(ProximaNova-Semibold.ttf) format('ttf');
   font-weight: 600;
 }
 
 @font-face {
-  font-family: ProximaNovaCondesed;
+  font-family: ProximaNovaCondensed;
   src:
-    url(./ProximaNova/ProximaNovaCond-Regular.eot) format('eot'),
-    url(./ProximaNova/ProximaNovaCond-Regular.woff) format('woff'),
-    url(./ProximaNova/ProximaNovaCond-Regular.ttf) format('ttf');
+    url(ProximaNovaCond-Regular.eot) format('eot'),
+    url(ProximaNovaCond-Regular.woff) format('woff'),
+    url(ProximaNovaCond-Regular.ttf) format('ttf');
   font-weight: 400;
 }
 
 @font-face {
-  font-family: ProximaNovaCondesed;
+  font-family: ProximaNovaCondensed;
   src:
-    url(./ProximaNova/ProximaNovaCond-Semibold.eot) format('eot'),
-    url(./ProximaNova/ProximaNovaCond-Semibold.woff) format('woff'),
-    url(./ProximaNova/ProximaNovaCond-Semibold.ttf) format('ttf');
+    url(ProximaNovaCond-Semibold.eot) format('eot'),
+    url(ProximaNovaCond-Semibold.woff) format('woff'),
+    url(ProximaNovaCond-Semibold.ttf) format('ttf');
   font-weight: 600;
 }
 
 @font-face {
-  font-family: ProximaNovaCondesed;
+  font-family: ProximaNovaCondensed;
   src:
-    url(./ProximaNova/ProximaNovaCond-Black.eot) format('eot'),
-    url(./ProximaNova/ProximaNovaCond-Black.woff) format('woff'),
-    url(./ProximaNova/ProximaNovaCond-Black.ttf) format('ttf');
+    url(ProximaNovaCond-Black.eot) format('eot'),
+    url(ProximaNovaCond-Black.woff) format('woff'),
+    url(ProximaNovaCond-Black.ttf) format('ttf');
   font-weight: 900;
 }

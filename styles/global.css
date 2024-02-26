@@ -1,0 +1,97 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  inline-size: 100%;
+  block-size: 100%;
+  font-family: ProximaNovaCondensed, Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+article,
+blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  inline-size: 100%;
+}
+
+.wrapper {
+  max-inline-size: 1250px;
+  inline-size: 100%;
+  margin: 0 auto;
+}
+
+.container {
+  max-inline-size: 1150px;
+  inline-size: 100%;
+  margin: 0 auto;
+  padding-inline: 20px;
+
+}
+
+.button {
+  padding: 18px 28px;
+  border: none;
+  background-color: #B01736;
+  border-radius: 8px;
+  inline-size: 110px;
+  color: #FFF;
+  font-size: 18px;
+  font-family: ProximaNovaCondensed, Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  line-height: 1.11;
+  white-space: nowrap;
+}
+
+.button:hover {
+  background-color: #D43152;
+}
+
+@media screen and (min-width: 320px) and (max-width: 640px) {
+  .wrapper {
+    padding-inline: 15px;
+  }
+  .container {
+    inline-size: 100%;
+    padding-inline: 5px;
+  }
+  .button {
+    font-size: 14px;
+    line-height: 1.22;
+    padding: 7.5px 25.5px;
+  }
+}
+
+h1 {
+  font-family: ProximaNovaCondensed, Arial, "Helvetica Neue", Helvetica,
+    sans-serif;
+  font-weight: 600;
+  color: #444;
+}
